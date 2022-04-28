@@ -1,0 +1,21 @@
+
+body{
+    background-color: #5e5e5d;
+}
+.button {
+    user-select: none;
+    border: 3px solid black;
+    border-radius: 2px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    background-color: #20201f67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:active {
+    border: 2px solid yellow;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
