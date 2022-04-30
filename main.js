@@ -38,3 +38,9 @@ window.onload = function () {
 
 
 }
+
+function onColorChange (c) {
+    console.log('ccccc', c)
+    document.documentElement.style.setProperty('--color',c);
+
+}

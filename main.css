@@ -64,3 +64,14 @@ body{
     background-color: rgb(0, 255, 76);
     position:absolute;
 }
+:root {
+    --color: yellow;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+#color {
+    background-color: var(--color);
+    height: 50px;
+    width: 150px;
+}
